@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript POO</title>
+  <link rel="preload" href="css/normalize.css" as="style"> <!--Para que el sitio web se comporte mas rapido-->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tailwind.min.css">
+  <link rel="preload" href="css/styles.css" as="style">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <h1 class="titulo">Sistema Administracion <span><h1>Vehiculo</h1></span></h1>
+  </header>
+
+ 
+
+  <section class="hero">
+    <div class="contenido-hero">
+        <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>Barraquilla, Atlantico</p>
+        </div>
+        <a class="boton" href="#">Contactar</a>
+    </div>
+  </section>
+
+  <main class="md:w-3/5  xl:w-4/5 px-5 py-10 bg-gray-200 contenedor sombra">
+    <form class="formulario" id="formulario">
+      <div class="contenedor">
+        <div>
+          <div class="nav-bg">
+            <nav class="navegacion-principal contenedor">
+              <input class="boton" type="submit" value="Inicio" id="inicio">
+              <input class="boton" type="submit" value="Auto" id="auto">
+              <input class="boton" type="submit" value="Moto" id="moto">
+              <input class="boton" type="submit" value="Camion" id="camion">
+            </nav>
+          </div>
+
+            <div id="contenedor-veh">
+            
+            <!-- <div id="index">
+              <div id="vehiculo">
+
+
+              </div>
+            </div> -->
+          </div>
+          <div id="resultados">
+
+          </div>
+        </div>
+      </div>  
+    </form>
+  </main>
+
+  <footer class="fooster py-6">
+    <p>Todos los derechos reservados. Ivan Castro Ruiz - ADSO 1</p>
+  </footer>
+  <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>
